@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // app.use(cors());
-const allowedOrigins = ["https://fantasy-beats.netlify.app/"];
+const allowedOrigins = ["https://fantasy-beats.netlify.app"];
 
 app.use(
   cors({
